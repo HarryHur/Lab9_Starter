@@ -207,12 +207,11 @@
       handleBtnClick();
     })
 
-    window.onerror = function() {
+ 
+    errorBtns[14].addEventListener('click', e => {
+      window.onerror = function() {
         console.log('error happened');
       }
-
-    errorBtns[14].addEventListener('click', e => {
-      
     })
    
 
